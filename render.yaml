@@ -1,0 +1,11 @@
+# Exported from Render on 2024-04-21T14:14:45Z
+services:
+- type: web
+  name: portfolio
+  runtime: static
+  repo: https://github.com/jayant12121/portfolio
+  envVars:
+  - key: Port
+    sync: false
+  staticPublishPath: ./index.html
+version: "1"
